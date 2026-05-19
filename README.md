@@ -59,3 +59,7 @@ Secret-Scanning Gating: Integrating TruffleHog/GitGuardian layers into CodeBuild
 OIDC Cross-Account Deployments: Leveraging OpenID Connect IAM roles to enable the pipeline to securely assume scoped, temporary credentials for deployment into multi-tenant AWS Landing Zones (Development, Staging, Production).
 
 Automated Slack/PagerDuty Alerts: Wiring AWS SNS (Simple Notification Service) and Lambda hooks to parse CodeBuild JSON logs and route rich alert cards instantly to Security Operations (SecOps) teams upon compliance failures.
+
+<img width="1470" height="956" alt="Screenshot 2026-05-18 at 8 25 52 AM" src="https://github.com/user-attachments/assets/989b793f-e479-45a6-b295-0f3a2d48791c" />
+<img width="770" height="479" alt="Screenshot 2026-05-18 at 8 41 13 AM" src="https://github.com/user-attachments/assets/d1143224-f658-46b9-bd72-2242b8fa24ae" />
+
