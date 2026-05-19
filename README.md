@@ -62,4 +62,5 @@ Automated Slack/PagerDuty Alerts: Wiring AWS SNS (Simple Notification Service) a
 
 <img width="770" height="479" alt="Screenshot 2026-05-18 at 8 41 13 AM" src="https://github.com/user-attachments/assets/d1143224-f658-46b9-bd72-2242b8fa24ae" />  
 
-<img width="1470" height="956" alt="Screenshot 2026-05-18 at 8 25 52 AM" src="https://github.com/user-attachments/assets/989b793f-e479-45a6-b295-0f3a2d48791c" /> 
+<img width="1470" height="956" alt="Screenshot 2026-05-18 at 8 25 52 AM" src="https://github.com/user-attachments/assets/7232403d-a138-411b-8f5c-927fd15437cc" />
+
