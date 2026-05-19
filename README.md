@@ -39,7 +39,8 @@ When a deployment file defines an unencrypted storage layer or exposes public pe
 2. **SAST Execution:** CodeBuild instantiates the runtime environment, installs dependency utilities, and runs the policy evaluation matrix:
    ```bash
    checkov -d . --framework terraform
-   Execution Failure: The scanner catches the structural policy failure returns a non-zero exit code (status 1), safely terminates the build phase, and blocks downstream infrastructure provisioning.
+
+   Execution Failure: The scanner catches the structural policy failure, returns a non-zero exit code (status 1), safely terminates the build phase, and blocks downstream infrastructure provisioning.
 
 Phase 2: Architectural Remediation & Promotion
 
@@ -58,7 +59,7 @@ Secret-Scanning Gating: Integrating TruffleHog/GitGuardian layers into CodeBuild
 
 OIDC Cross-Account Deployments: Leveraging OpenID Connect IAM roles to enable the pipeline to securely assume scoped, temporary credentials for deployment into multi-tenant AWS Landing Zones (Development, Staging, Production).
 
-Automated Slack/PagerDuty Alerts: Wiring AWS SNS (Simple Notification Service) and Lambda hooks to parse CodeBuild JSON logs and route rich alert cards instantly to Security Operations  (SecOps) teams upon compliance failures.  
+Automated Slack/PagerDuty Alerts: Wiring AWS SNS (Simple Notification Service) and Lambda hooks to parse CodeBuild JSON logs and route rich alert cards instantly to Security Operations (SecOps) teams upon compliance failures.  
 
 <img width="770" height="479" alt="Screenshot 2026-05-18 at 8 41 13 AM" src="https://github.com/user-attachments/assets/d1143224-f658-46b9-bd72-2242b8fa24ae" />  
 
